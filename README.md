@@ -41,6 +41,10 @@ python main.py
 pip list
 python --version 
 pip --version 
+export TWILIO_ACCOUNT_SID=<TOKENID>
+export TWILIO_AUTH_TOKEN=<TOKENID>
+echo $TWILIO_ACCOUNT_SID
+echo $TWILIO_AUTH_TOKEN
 ```
 ```plain text
 If trying to do this with VS CODE ensure you have your files open on the left side aka the workspace 
