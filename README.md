@@ -1,3 +1,5 @@
+# See the Usage Section in each .py file to see what the code does
+
 # 1. Create virtual python env
 ```bash
 python -m venv venv && source venv/bin/activate #Linux
