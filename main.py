@@ -4,6 +4,7 @@ Usage - Place images to remove the background in images folder.
         Run this script 'python main.py' 
         See the removed background photos in results folder.
 
+AUTHOR - https://github.com/Ahendrix9624/
 """
 from rembg import remove
 from PIL import Image
@@ -22,5 +23,3 @@ for file in files:
             original_image = i.read()
             output = remove(original_image)
             o.write(output)
-
-
